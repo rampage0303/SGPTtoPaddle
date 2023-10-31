@@ -58,9 +58,9 @@ def test_forward():
 #
 #
 if __name__ == "__main__":
-    # convert_pytorch_checkpoint_to_paddle(
-    #     "./source/pytorch_model.bin",
-    #     "./source/model_state.pdparams")
+    convert_pytorch_checkpoint_to_paddle(
+        "./source/pytorch_model.bin",
+        "./source/model_state.pdparams")
     test_forward()
 #     # torch result shape:torch.Size([4, 64, 30522])
 #     # paddle result shape:[4, 64, 30522]
